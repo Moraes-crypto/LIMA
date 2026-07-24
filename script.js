@@ -1,4 +1,7 @@
- const botao = document.querySelector("#botao");
-        botao.addEventListener("click", () => {
-            paragrafo.innerHTML = "O Haaland adiou o sonho para 2030";
-        });
+const botao = document.querySelector("#botao");
+const paragrafo = document.querySelector("#paragrafo");
+
+botao.addEventListener("click", () => {
+    document.body.classList.toggle("fundo-preto");
+    paragrafo.textContent = "Vai Corinthians";
+});

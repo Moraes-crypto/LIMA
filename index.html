@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<!DOCTYPE html> <!--Identifica a versão 5 do HTML-->
+<html lang="pt-br"><!--Declara que este trecho do arquivo  representa código HTML-->
+<head><!--Declara metainformações sobre a página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Um guia completo sobre HTML e suas tags.">
     <meta name="keywords" content="HTML, tags, programação, web design">
-    <meta name="author" content="Prof.Edgard">
+    <meta name="author" content="Kauã.MS">
 
     <link rel="icon" href="./brasil.png" type="image/png">
 
@@ -14,28 +14,155 @@
     <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
    
    <link rel="stylesheet" href="./style.css">
+
    <script defer src="./script.js"></script>
    
     <title>Meu primeiro HTML</title>
 </head>
 <body>
-    <center>
-        <header>
-            <h1>Bem-vindo ao site!</h1>
-        </header>
-        <main>
-            <p>
-                Este é um exemplo e uma página definindo como o português do brasil
+    <header>
+        <h1>Bem-vindo ao site!</h1>
+        <h2>Título secundário</h2>
+        <h3>Subtítulo</h3>
+        <h4>Item</h4>
+    </header>
+    <main>
+        <p>
+            Este é um exemplo e uma página definindo como o português
+        </p>
+        <button id="botao" type="button">Vai Corinthians</button>
+        <hr>
+        <p>
+            Salve o <b>Corinthians</b><br>
+            <u>O campeão dos campeões</u><br>
+        Eternamente<br>
+            Dentro dos nossos corações<br>
             </p>
-            <p id="paragrafo">Cadê o HEXA</p>
-            <button id="botao">Clique aqui</button>
-        </main>
+            <p>
+            Salve o <b>Corinthians</b><br>
+            De tradições e glórias mil<br>
+            Tu és orgulho<br>
+            Dos desportistas do <i>Brasil</i><br>
+            </p>
+            <p>
+            Teu passado é uma bandeira<br>
+            Teu presente é uma lição<br>
+            Figuras entre os primeiros<br>
+            Do nosso esporte bretão<br>
+            </p>
+            <p>
+            Corinthians grande<br>
+            Sempre altaneiro<br>
+            És do <i>Brasil</i><br>
+            O clube mais brasileiro<br>
+            </p>
+            <p>
+            Salve o <b>Corinthians</b><br>
+            O campeão dos campeões<br>
+            Eternamente<br>
+            Dentro dos nossos corações<br>
+            </p>
+            <p>
+            Salve o <b>Corinthians</b><br>
+            De tradições e glórias mil<br>
+            Tu és orgulho<br>
+            Dos desportistas do <i>Brasil</i><br>
+            </p>
+
+            <p>Este é um abre chevron &lt; </p>
+            <p>Este é um fecha chevron &gt;</p>
+
+            <h2>Minha Lista de Compras</h2>
+            <ul type="Square"><!--Lista não ordenada, usada para itens sem ordem específica-->
+                <!--Cada item da lista é definido pela tag <li> -->
+                <li>Maçã</li>
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Ovos</li>
+            </ul>
+
+            <ul type="disc">
+                <li>Item com marcador padrão (disc)</li>
+            </ul>
+
+            <ul type="circle">
+                <li>Item com marcador de círculo vazio (circle)</li>
+            </ul>
+
+            <ul type="square">
+                <li> Item com marcador de quadrado cheio</li>
+            </ul>
+                
+            <h2>Passos para ligar um Computador</h2>
+            <ol><!-- Lista ordenada com os passos simples para ligar um computador-->
+                <!-- Cada item é definido pela tag <li> -->
+                <li> Verificar se o cabo de alimentação está conectado na tomada.</li>
+                <li> Certifique-se de que o cabo de alimetação está conectado ao computador.</li>
+                <li> Pressionar o botão de ligra.</li>
+                <li> Aguardar até que a tela de iniciação apareça.</li>
+                    
+            </ol>
+
+            <ol start="5" reversed type="1">
+                <li style="color: red">Item 5</li>
+                <li>Item 6</li>
+                <li>Item 7</li>
+            </ol>
+
+        <p>
+            <a 
+                href="https://www.google.com"
+                target="_blank"
+                title="Faça buscas na Internet"
+                rel="nofolow noopener"
+            >
+                Visite o Google
+            </a>
+        </p>
+        <p>
+            <a 
+                href="https://sp.senai.br"
+                target="_blank"
+                title="Consulte nossos cursos"
+            >
+                Acesse o portal do SENAI
+            </a>
+        </p>
+
+        <p>
+            <a href="https://www.bing.com/images/search?view=detailV2&ccid=8%2fe%2fcy36&id=435CDA6F71C15637D0D6D87995FA7BC25B4CB217&thid=OIP.8_e_cy36P3YUeIbplWojAAHaEK&mediaurl=https%3a%2f%2fwallpapers.com%2fimages%2fhd%2fcorinthians-football-club-crest-emblem-qk2em3zz5hwak42z.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f3f7bf732dfa3f76147886e9956a2300%3frik%3dF7JMW8J7%252bpV52A%26pid%3dImgRaw%26r%3d0&exph=1080&expw=1920&q=corinthians&FORM=IRPRST&ck=81665CC1ADCF68E3F381C2471C140AAD&selectedIndex=10&itb=0">
+            <img
+                src="./timao.png"
+                height="400"
+                alt="Escudo do Corinthians"
+                title="Escudo do Corinthians"
+            >
+            </a>
+        </p>
+
+        <table border="2" cellspacing="1" cellpading="10" width="80%" align="center"> <!-- Elemento tabela-->
+            <tr> <!-- Elemento linha de tabela (table row)-->
+                <th>Nome</th><!-- Nome das colunas-->
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+            <tr>
+                <td>Kauã</td>
+                <td>16</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>16</td>
+                <td>São Paulo</td>
+            </tr>
+        </table>
+
+    </main>
 
         <footer>
             &copy; 2026 - Todos os direitos reservados
         </footer>
-    
-    </center>
 
 </body>
 </html>

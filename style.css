@@ -1,3 +1,29 @@
 * {
-    background-color: #ff9100;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #222222;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+    max-width: 800px;
+}
+
+body.fundo-preto{
+    background-color: #000000;
+    color: #ffffff;
 }
