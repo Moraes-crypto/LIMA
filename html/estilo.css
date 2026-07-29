@@ -5,8 +5,10 @@ body{
 }
 
 button{
-    padding: 10px, 20px;
-    background-color: #3498db
+    padding: 20px, 30px;
+    background-color: #3498db;
+    border: none;
+    border-radius:50px;
 }
 
 #nome{
