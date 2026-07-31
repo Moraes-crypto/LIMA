@@ -1,0 +1,9 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/7c/a2/80/7ca2809c20ed68b649f09c9ab588bf60.png?nii=t');
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    background-attachment: fixed;
+    color: aliceblue;
+}

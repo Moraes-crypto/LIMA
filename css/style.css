@@ -3,9 +3,12 @@
     padding: 0; /*Remove o preenchimento padrão de todos os elementos*/
     box-sizing: border-box; /*Isso garante que o padding e a borda sejam incluídos no calcúlo tamanho do dos elementos*/
 }
+
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color:aliceblue;
     display: flex; /*Utiliza o modelo de leiaute flex box para o corpo do documento*/
     justify-content: center; /*Centraliza o elementos horizontalmente*/
     align-items: center; /*Centraliza os elementos verticalmente*/
@@ -24,12 +27,38 @@ body {
     background-color: white;
     width: 300px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    border-radius: 10%;
+    box-shadow: 0px 4px 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /*Aplica uma transição suave para o efeito de traformação de sobra*/
 }
 
 .card:hover{
     transform: translateY(-10px); /*Movimenta o cartão para cima em 10px ao passar o mouse sobre ele, criando um efeito de elevação*/
     box-shadow: 0px 6px 20px rgba(0,0,0,0.15); /*Aumenta a intesidade da sobra ao passar o mouse sobre o cartão*/
+}
+
+.card h2{
+    color: #333; /*Define a cor do título do cartão como cinza escuro*/
+    margin-bottom: 10px; /*Adicina uma margem inferiorde 10px ao título*/
+}
+
+.card p {
+    color: #666; /*Define a cor do texto dentro do cartão como cinza médio*/
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border:none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;/*O cursor do mouse vira uma "mãozinha" com o dedo indicador esticado (Firefox)*/
+    transition: background-color 0.3s ease;/*Aplica um atransição suave de 0.3s*/
+}
+
+.btn:hover{
+    background-color: #0056b3;
 }
