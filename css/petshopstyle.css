@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #ff6f61;
-    --secondary-color: #f96966;
+    --primary-color: #ffd900;
+    --secondary-color: #e0c114;
     --background-color: #f4f4f9;
     --text-color: #333;
-    --light-text-color: #666;
+    --light-text-color: #444;
     --border-radius: 12px;
 }
 
@@ -48,7 +48,7 @@ body {
     transition: color 0.3s;
 }
 .nav-links li a:hover {
-    color: var(secundary-color);
+    color: var(--secundary-color);
 }
 .menu-toggle {
     font-size: 1.5rem;
@@ -85,6 +85,11 @@ body {
 }
 .sidebar-link li a:hover {
     color: var(--secondary-color);
+}
+.sidebar img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
 }
 .cards {
     width: 70%;
@@ -133,8 +138,23 @@ body {
     border-radius: var(--border-radius);
 }
 /*Média Queries*/
-@media(max-width: 768px){
-    .main-content{
+@media(max-width: 768px) {
+    .main-content {
         flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .cards {
+        width: 100%;
+    }.nav-links {
+        display: none;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .card img {
+        width: 100%;
+        border-radius: var(--border-radius);
     }
 }

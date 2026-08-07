@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(73, 90,104);
     color: #435a69;
@@ -7,13 +7,13 @@ body{
     font-size: 16px;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 28px;
     color: #ffa200;
 }
 
-p{
+p {
     line-height: 1.6;
     margin: 10px 0;
     font-size: 1rem;
@@ -27,26 +27,26 @@ p.lorem {
     text-align: justify;
 }
 
-p.lorem#ultimoparagrafo{
+p.lorem#ultimoparagrafo  {
     text-align: left;
 }
 
-.conteudo{
+.conteudo {
     width: 50vw;
     height: auto;
 }
 
-#botao:hover{
+#botao:hover {
     color: white;
     background-color: blue;
 }
 
-#imagem{
+#imagem {
     transition: transform 0.3s ease, opacity 0.3 ease; /*Transição suave*/
     width: 600px;
 }
 
-#imagem:hover{
+#imagem:hover {
     transform: scale(1.1); /*Aumenta a imagem em 10%"*/
     opacity:0.8; /*Reduz ligeiramente a opacidade*/
 }
