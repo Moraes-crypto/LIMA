@@ -1,10 +1,10 @@
 .contact-form {
     max-width: 500px;
-    margin: auto;
+    margin: 0 5% 0 auto;
     padding: 20px;
     background: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .form-group {
     margin-bottom: 15px;
@@ -23,4 +23,23 @@ input, select, textarea {
 textarea {
     height: 100px;
     resize: vertical;
+}
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background: #005a8d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-submit:hover {
+    background: #3c80c9;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        margin: 0 auto;
+    }
 }
